@@ -1,0 +1,274 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.quicksand-normal{
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
+/* banner style */
+.first-banner{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1025px;
+   margin: 16px 110px;
+    align-items: center;
+    gap:145px;
+}
+.first-school{
+    display: flex;
+    gap:9px;
+    align-items: center;
+}
+
+.first-ul{
+    text-decoration: none;
+    display: flex;
+    list-style: none;
+    gap:25px;
+    
+}
+.school{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.first-logo{
+    width: 48px;
+    height: 48px;
+}
+.first{
+    font-weight: 700;
+    font-size:1.25rem;
+    color: #FEA301;
+
+}
+.second{
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: #01ACFD;
+}
+.third{
+    font-size: 1.25rem;
+    font-weight: 500;
+    color:#05D4DF;
+}
+.fourth{
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: #5D58EF;
+
+}
+.primary-btn{
+    background-color: #FEA301;
+    color: white;
+    padding: 8px 48px;
+    border: none;
+    border-radius:12px;
+}
+#icon{
+    display: none;
+}
+.abc{
+    display:none;
+}
+
+/*Banner style */
+main{
+    margin-left:110px;
+    margin-right: 110px;
+}
+.banner-all{
+    display: flex;
+    gap:42px;
+    align-items: center;
+    justify-content: center;
+}
+.banner-title{
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+.first-span{
+    color: #FEA301;
+}
+.second-span{
+    color:#01ACFD;
+}
+.banner-prgp{
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+.banner-btn{
+    background-color: black;
+    color: white;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 12px;
+}
+
+/*curriculum style*/
+
+.standard-title{
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+
+.curricullum-all{
+    display: flex;
+    gap:28.29px;
+    
+}
+.all-11{
+
+    background-image:linear-gradient(#DEF5FF,white);
+    border-radius: 18px;
+    text-align: center;
+    width: 295px;
+    height: 382px;
+    padding:42px 32px;
+    
+}
+.all-12{
+    background-image: linear-gradient(#FFF4DC,white);
+    border-radius: 18px;
+    text-align: center;
+    width: 295px;
+    height: 382px;
+    padding:42px 32px;
+
+}
+.all-13{
+    background-image:linear-gradient( #F2E8FF,white);
+    border-radius: 18px;
+    text-align: center;
+    width: 295px;
+    height: 382px;
+    padding:42px 32px;
+}
+.all{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.all-prgp{
+    color: #808080;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 25px;
+}
+.secondary-btn1{
+    color:#64C8FF;
+    font-weight: 700;
+    font-size: 1rem;
+    background-color: white;
+    border:none;
+    margin-top: 30px;
+}
+.secondary-btn2{
+    color:#F0AA00;
+    font-weight: 700;
+    font-size: 1rem;
+    background-color: white;
+    border: none;
+    margin-top:30px;
+}
+.secondary-btn3{
+    color:#8700FF;
+    font-weight: 700;
+    font-size: 1rem;
+    background-color: white;
+    border: none;
+    margin-top: 30px;
+}
+.icons{
+    text-align: center;
+    gap:20px;
+}
+#i1{
+    background-color: #FEA301;
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    padding-top: 15px;
+    margin-right: 10px;
+    
+
+}
+#i2{
+    background-color: #FEA301;
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    padding-top: 15px;
+    
+}
+
+
+
+
+/* Responsive */
+
+@media screen and (max-width: 576px){
+
+    .school,.primary-btn,.first-ul{
+        display:none;
+    }
+
+    .first-banner{
+        justify-content: space-between;
+        margin-left:16px;
+        margin-top: 16px;
+        margin-right: 16px;
+       
+    }
+    .first-logo{
+        height: 46px;
+        width: 46px;
+    }
+   
+    #icon{
+        display: block;
+        width: 30px;
+        height: 30px;  
+    }
+    .abc{
+        display:block;
+        margin-top: 12px;
+        
+    }
+
+    /*banner responsive*/
+
+    .banner-all{
+        flex-direction:column-reverse;
+        margin-left: 16px;
+        margin-right: 16px;
+        margin-top: 10px;
+        align-items: center;
+
+    }
+    .banner-2i{
+        width:336px;
+        height: 413px;
+    }
+    /*curricullum responsive */
+    .standard-title{
+        align-items: center;
+        font-size: 1.5rem;
+        margin-bottom: 20px;
+    }
+    .curricullum-all{
+        flex-direction: column;
+        margin-left: 16px;
+        margin-right: 16px;
+        margin-top: 10px;
+        align-items: center;
+    }
+
+
+}
